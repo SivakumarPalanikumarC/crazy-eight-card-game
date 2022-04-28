@@ -124,29 +124,3 @@ public class Game {
 	}
 
 }
-/*Random r=new Random();
-List<Integer> num=new ArrayList<Integer>();
-Card[] card=Card.values();
-Suits suits[]=Suits.values();
-HashMap<Card,Suits> deck=new HashMap<>();
-for(int i=0;i<4;i++) {
-	Set<Integer> ran=new LinkedHashSet<Integer>();
-	while(ran.size()<13) {
-		ran.add(r.nextInt(13)+1);
-	}
-	List<Integer> temp=new ArrayList<Integer>(ran);
-	num.addAll(temp);
-}
-List<Integer> suit=new ArrayList<Integer>();
-for(int i=0;i<13;i++) {
-	Set<Integer> ran=new LinkedHashSet<Integer>();
-	while(ran.size()<4) {
-		ran.add(r.nextInt(4)+1);
-	}
-	List<Integer> temp1=new ArrayList<Integer>(ran);
-	suit.addAll(temp1);
-}
-for(int i=0;i<52;i++) {
-	deck.put(card[num.get(i)-1], suits[suit.get(i)-1]);
-	/*System.out.println(card[num.get(i)-1]+" "+ suits[suit.get(i)-1]);
-}*/
